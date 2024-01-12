@@ -997,7 +997,7 @@ COPY public.directus_relations (id, many_collection, many_field, one_collection,
 
 COPY public.directus_roles (id, name, icon, description, ip_access, enforce_tfa, admin_access, app_access) FROM stdin;
 0ebbd2c2-0d46-402c-8a87-939024e6abab	Administrator	verified	$t:admin_description	\N	f	t	t
-09c04dcf-5a1b-4583-b900-b259fa32dffa	Standard	verified	$t:admin_description	\N	f	t	t
+09c04dcf-5a1b-4583-b900-b259fa32dffa	Standard	supervised_user_circle	\N	\N	f	f	t
 28cd8ba9-5485-4f52-80e6-04c91c827b09	Consumer	supervised_user_circle	Task Consumer Role.	\N	f	f	t
 \.
 
